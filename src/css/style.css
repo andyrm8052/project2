@@ -1,0 +1,23 @@
+.wrapper{
+    font-family: "Open Sans";
+    display: flex;
+    padding: 40px;
+    width: 1366px;
+    background: lightgray;
+}
+
+.task_toDo{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.task_items{
+    padding: 10px 15px;
+    background: white;
+}
+.start_task{
+    color: dodgerblue;
+    padding: 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
