@@ -4,20 +4,46 @@
     padding: 40px;
     width: 1366px;
     background: lightgray;
+    margin: auto auto;
+}
+
+.tasks{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .task_toDo{
+    text-align: center;
     font-size: 28px;
     font-weight: bold;
     margin-bottom: 20px;
+    margin-right: 30px;
+    padding-right: 20px;
+    border-radius: 5px;
+    height: 100%;
+    background: lightslategray;
 }
+
 .task_items{
+    margin-left: 30px;
+    margin-right: 10px;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 10px;
     padding: 10px 15px;
     background: white;
+    border-radius: 5px;
 }
-.start_task{
+.item_list{
+    padding-bottom: 10px;
+}
+.counter, .type{
+    font-size: 14px;
+    font-weight: normal;
+}
+.start_task, .send_task, .review_task, .work_task, .done_task, .reWork_task{
     color: dodgerblue;
-    padding: 15px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
 }

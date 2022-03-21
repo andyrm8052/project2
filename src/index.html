@@ -8,11 +8,40 @@
 <body>
     <div class="wrapper">
         <div class="tasks">
-            <div class="task_toDo">To Do</div>
-            <div class="task_items">
-                <div class="item_list">Create List View</div>
+            <div class="task_toDo">To Do
+                <div class="task_items">
+                    <div class="item_list">Create List View</div>
+                    <div class="counter">ID: 1</div>
+                    <div class="type">feature</div>
+                    <div class="start_task" onclick="start();">Start Work ></div>
+                </div>
             </div>
-            <div class="start_task">Start Work ></div>
+            <div class="task_toDo">In Progress
+                <div class="task_items">
+                    <div class="item_list">Install Dependencies</div>
+                    <div class="counter">ID: 2</div>
+                    <div class="type">feature</div>
+                    <div class="send_task" onclick="start();">< Send Back</div>
+                    <div class="review_task" onclick="start();">Request Review ></div>
+                </div>
+            </div>
+            <div class="task_toDo">Review
+                <div class="task_items">
+                    <div class="item_list">Setup GitHub</div>
+                    <div class="counter">ID: 3</div>
+                    <div class="type">feature</div>
+                    <div class="work_task" onclick="start();">< More Work Required</div>
+                    <div class="done_task" onclick="start();">Done ></div>
+                </div>
+            </div>
+            <div class="task_toDo">Done
+                <div class="task_items">
+                    <div class="item_list">Setup GitHub</div>
+                    <div class="counter">ID: 3</div>
+                    <div class="type">feature</div>
+                    <div class="reWork_task" onclick="start();">< Request Re-Review</div>
+                </div>
+            </div>
         </div>
     </div>
     <script src="js/app.js"></script>
