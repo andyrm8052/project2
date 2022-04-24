@@ -1,0 +1,50 @@
+.page-tabs {
+}
+
+.page-tabs .nav-link {
+    cursor: pointer;
+    color: dimgrey;
+}
+
+ul{
+    list-style-type: none;
+}
+ul .nav page-tabs li{
+}
+
+ul > li {
+    display: flex;
+    justify-content: center;
+    padding: 3px 0;
+}
+.page-tabs .nav-link.active {
+    font-weight: bold;
+    color: black;
+}
+
+hr{
+    width: 55%;
+    height: 2px;
+    background: black;
+}
+
+hr:first-of-type{
+    margin-top: 40px;
+}
+
+.task-list{
+
+}
+
+.list-group-item{
+    padding: 15px 0;
+}
+
+.btn{
+    cursor: pointer;
+    color: white;
+    margin: 0 15px;
+    background: cornflowerblue;
+    padding: 3px;
+    border-radius: 5px;
+}
