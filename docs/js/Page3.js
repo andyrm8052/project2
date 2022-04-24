@@ -68,7 +68,7 @@ class index extends React.Component {
                     </div>
                 </div>
                 <div className="switch" id="switch_id">Switch</div>
-                <script src="./java.js"/>
+                <script docs="./java.js"/>
             </div>
         );
     }
